@@ -1,0 +1,182 @@
+@media (max-width: 1200px) {
+  .nav-link {
+    font-size: 12px;
+  }
+  .nav-item {
+    margin-right: 0.75rem !important;
+  }
+  .nav-item.me-0 {
+    margin-right: 0 !important;
+  }
+
+  .carousel h1 {
+    font-size: 50px;
+  }
+
+  .footer .text-right {
+    text-align: right;
+  }
+  .footer .text-left {
+    text-align: left;
+  }
+}
+@media (max-width: 991px) {
+  .navbar {
+    background-color: rgb(0, 0, 0, 0.85);
+    padding: 15px 0;
+  }
+  .navbar-toggler {
+    border-color: #42c0d9 !important;
+    padding: 4px;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(66, 192, 217)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+  .caption-info-inner {
+    padding: 0 25px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  /**/
+}
+@media (max-width: 768px) {
+  .footer .text-right,
+  .footer .text-left {
+    text-align: center;
+  }
+  .left-content {
+    margin: 0 0 30px;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .header.carousel .carousel-item {
+    height: 500px;
+  }
+  .header.carousel h1,
+  .title-info h1 {
+    font-size: 25px;
+    margin: 0 0 10px;
+  }
+
+  .header.carousel p {
+    font-size: 16px;
+  }
+  .caption-info {
+    top: 55%;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .discount-info .regular-price,
+  .discount-info .sale-price {
+    font-size: 16px;
+  }
+  .count-section ul li {
+    width: 50%;
+    margin: 0 0 15px;
+  }
+  .count-section h3 {
+    font-size: 18px;
+  }
+  .gallary .nav-link {
+    margin: 0 0px 8px;
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  .gallery-item li {
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .tour-list li {
+    width: 100%;
+  }
+  .gallery-item li {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .count-section ul li {
+    width: 100%;
+  }
+
+  .title-info h1 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 640px) and (min-width: 576px) {
+  .post-date,
+  .post-comments,
+  .package-info i,
+  .post-bottom .pull-right i {
+    font-size: 12px;
+  }
+  .post-comments {
+    margin-left: 4px;
+  }
+  .discount-info a,
+  .tour-item span i,
+  .review-count {
+    font-size: 14px;
+  }
+  .pull-right.price {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 750px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .tour-list li,
+  .gallery-item li {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 640px) {
+  .caption-info {
+    top: 55%;
+  }
+  .header.carousel .carousel-item {
+    height: 600px;
+  }
+  .carousel h1 {
+    font-size: 40px;
+    margin: 0 0 10px;
+  }
+  .count-section h3 {
+    font-size: 15px;
+  }
+  .gallary .nav-link {
+    margin: 0;
+  }
+  .sidebar-item h3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel h1 {
+    font-size: 45px;
+    margin: 0 0 15px;
+  }
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 750px;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 991px) {
+  h3 {
+    font-size: 18px;
+  }
+}
